@@ -1,0 +1,64 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "DataForge Scraper",
+  "short_name": "DataForge",
+  "version": "1.4.1",
+  "manifest_version": 3,
+  "default_locale": "en",
+  "description": "DataForge Scraper extracts data from web pages and exports it as Excel or CSV files",
+  "action": {
+    "default_icon": "dataforge64.png",
+    "default_title": "DataForge Scraper"
+  },
+  "permissions": [
+    "webRequest",
+    "tabs",
+    "webNavigation",
+    "scripting",
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "incognito": "split",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "icons": {
+    "16": "dataforge16.png",
+    "32": "dataforge32.png",
+    "64": "dataforge64.png",
+    "128": "dataforge128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "dataforge64.png"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "options_page": "src/options/options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "css": [
+        "src/onload.css"
+      ],
+      "js": [
+        "js/jquery-3.1.1.min.js",
+        "js/sha256.min.js",
+        "src/onload.js"
+      ]
+    }
+  ]
+}

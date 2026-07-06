@@ -1,0 +1,92 @@
+{
+  "optionsTitle": {
+    "message": "Turn Any Website Into a Spreadsheet In a Second."
+  },
+  "optionsSubtitle": {
+    "message": "Whether it's 10 rows or 10,000, DataForge Scraper detects tables, handles infinite scrolls, and cleans the data for you. Turn any website into a spreadsheet in seconds - no coding required."
+  },
+  "optionsPrivacyText": {
+    "message": "DataForge Scraper needs to process the URLs you visit and the information about such URLs (\"Browsing Data\") to provide you with our Presets feature. Certain details collected in the Browsing Data could qualify as sensitive personal information under applicable privacy laws and regulations, and we need your consent to process this data. Since our affiliated companies facilitate some of our features and services, the Browsing Data may be shared with these affiliates. Some of our affiliated companies may also use the Browsing Data to create and provide their market intelligence services. These affiliated companies may disclose some of this information to its customers as part of these market intelligence services. By clicking \"Accept\" below you agree to the use of your Browsing Data in this way. You can opt-out of this use of your information at any time, but please note that this may affect your ability to access some of our services."
+  },
+  "optionsAgree": {
+    "message": "Agree"
+  },
+  "optionsDisagree": {
+    "message": "Disagree"
+  },
+  "optInFooter": {
+    "message": "By using this extension you agree to our {{terms}} and acknowledge our {{privacy}}."
+  },
+  "optInTermsLinkText": {
+    "message": "Terms of Services"
+  },
+  "optInPrivacyLinkText": {
+    "message": "Privacy Policy"
+  },
+  "optionsWelcomeTo": {
+    "message": "Welcome to "
+  },
+  "optionsWelcomeIds": {
+    "message": "DataForge Scraper!"
+  },
+  "optionsDisagreeModalTitle": {
+    "message": "Are you sure?"
+  },
+  "optionsDisagreeModalBody": {
+    "message": "You'll miss out on our smartest extraction tools. You can always change this later in Settings."
+  },
+  "optionsDisagreeModalContinue": {
+    "message": "Continue with Basic Only"
+  },
+  "optionsDisagreeModalEnable": {
+    "message": "Enable Presets"
+  },
+  "popupAdvancedFeaturesDisabled": {
+    "message": "Presets are disabled"
+  },
+  "popupTerms": {
+    "message": "Terms"
+  },
+  "popupPrivacyPolicy": {
+    "message": "Privacy Policy"
+  },
+  "popupSettingsTitle": {
+    "message": "Settings"
+  },
+  "popupSettingsAdvancedFeatures": {
+    "message": "Presets"
+  },
+  "popupSettingsDescription": {
+    "message": "DataForge Scraper can automatically identify popular data columns and navigation buttons used by others on the same URL, allowing you to bypass manual setup and achieve high-quality results with a single click."
+  },
+  "popupOptOutConfirmTitle": {
+    "message": "Are you sure you want to lose access to Presets?"
+  },
+  "popupOptOutDowngrade": {
+    "message": "Downgrade Anyway"
+  },
+  "popupOptOutKeepFeatures": {
+    "message": "Wait, Keep Presets"
+  },
+  "popupSavedConfigEmpty": {
+    "message": "No presets yet"
+  },
+  "popupSavedConfigPlaceholder": {
+    "message": "Presets"
+  },
+  "popupApply": {
+    "message": "Apply"
+  },
+  "popupOptInTitlePart1": {
+    "message": "New features. "
+  },
+  "popupOptInTitlePart2": {
+    "message": "Better results"
+  },
+  "popupOptInTitlePart3": {
+    "message": "."
+  },
+  "popupOptInSubtitle": {
+    "message": "Skip the manual setup! DataForge Scraper will identify the most popular scraping setups used by our users on the same URL. Just select a community-recommended configuration and start extracting data instantly."
+  }
+}
